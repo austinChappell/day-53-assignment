@@ -1,0 +1,12 @@
+.NavBar {
+  background: black;
+  padding: 10px;
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  .active {
+    color: #999;
+  }
+}

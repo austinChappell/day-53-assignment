@@ -1,0 +1,19 @@
+.CreatePost {
+  width: 60%;
+  margin: 20px auto;
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  textarea {
+    resize: none;
+  }
+  button {
+    border: 3px solid black;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: transparent;
+  }
+}
