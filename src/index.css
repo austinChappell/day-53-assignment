@@ -29,7 +29,8 @@ body {
     margin: 10px 0;
     border: 1px solid maroon;
     padding: 5px;
-    font-size: 16px; }
+    font-size: 16px;
+    color: maroon; }
   .CreatePost textarea {
     resize: none; }
   .CreatePost button {
@@ -48,10 +49,12 @@ body {
 
 .NavBar {
   background: navy;
-  padding: 10px; }
+  padding: 10px 50px; }
   .NavBar a {
     color: white;
     text-decoration: none;
-    margin: 20px; }
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px; }
   .NavBar .active {
-    color: #999; }
+    background-color: maroon; }
