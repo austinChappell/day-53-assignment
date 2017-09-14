@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: beige;
+  color: maroon; }
 
 .AllPosts {
   width: 70%;
@@ -9,7 +11,7 @@ body {
 
 .BlogPost {
   width: 100%;
-  border: 3px solid black;
+  border: 3px solid navy;
   margin: 10px 0;
   padding: 20px; }
   .BlogPost .body {
@@ -23,21 +25,27 @@ body {
   .CreatePost input, .CreatePost textarea {
     width: 100%;
     margin: 10px 0;
-    border: 1px solid black;
-    padding: 5px; }
+    border: 1px solid maroon;
+    padding: 5px;
+    font-size: 16px; }
   .CreatePost textarea {
     resize: none; }
   .CreatePost button {
-    border: 3px solid black;
+    border: 3px solid maroon;
+    color: maroon;
     font-size: 20px;
     text-transform: uppercase;
-    background: transparent; }
+    background: transparent;
+    cursor: pointer; }
+    .CreatePost button:hover {
+      background-color: maroon;
+      color: beige; }
 
 .Home {
   text-align: center; }
 
 .NavBar {
-  background: black;
+  background: navy;
   padding: 10px; }
   .NavBar a {
     color: white;

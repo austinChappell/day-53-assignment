@@ -13,6 +13,7 @@ class AllPosts extends Component {
   render() {
     return (
       <div className="AllPosts">
+        <h1 style={{textAlign: 'center'}}>Browse All Posts</h1>
         {this.props.data.map((post) => {
           return <BlogPost key={post._id} post={post} />
         })}

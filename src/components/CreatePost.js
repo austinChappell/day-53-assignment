@@ -10,6 +10,7 @@ class CreatePost extends Component {
 
     return (
       <div className="CreatePost">
+        <h1 style={{textAlign: 'center'}}>Write Post</h1>
         <input name="title" placeholder="Title" value={this.props.title} onChange={(evt) => this.props.inputChange(evt, 'title')} />
         <input name="author" placeholder="Author" value={this.props.author} onChange={(evt) => this.props.inputChange(evt, 'author')} />
         <textarea name="body" placeholder="Write Here..." rows="10" value={this.props.blog} onChange={(evt) => this.props.inputChange(evt, 'blog')}></textarea>
