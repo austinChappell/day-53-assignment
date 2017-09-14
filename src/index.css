@@ -14,6 +14,8 @@ body {
   border: 3px solid navy;
   margin: 10px 0;
   padding: 20px; }
+  .BlogPost .body, .BlogPost .author {
+    margin: 10px 25px; }
   .BlogPost .body {
     border: 1px solid gray;
     border-radius: 3px;

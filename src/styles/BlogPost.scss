@@ -3,6 +3,9 @@
   border: 3px solid $color-primary;
   margin: 10px 0;
   padding: 20px;
+  .body, .author {
+    margin: 10px 25px;
+  }
   .body {
     border: 1px solid gray;
     border-radius: 3px;
