@@ -6,7 +6,7 @@ class BlogPost extends Component {
       <div className="BlogPost">
         <h2 className="title">{this.props.post.title}</h2>
         <h3 className="author">{this.props.post.author}</h3>
-        <p className="body">{this.props.post.body}</p>
+        <p className="body">{this.props.post.blog}</p>
       </div>
     )
   }

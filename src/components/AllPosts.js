@@ -33,6 +33,7 @@ const mapDispatchToProps = (dispatch) => {
       fetch('https://tiny-lasagna-server.herokuapp.com/collections/blogger/').then((response) => {
         return response.json();
       }).then((data) => {
+        console.log(data);
         const action = { type: 'GET_DATA', data };
         dispatch(action);
       })

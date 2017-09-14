@@ -4,7 +4,7 @@ const initialState = {
   data: [],
   title: '',
   author: '',
-  body: ''
+  blog: ''
 }
 
 const reducer = (state = initialState, action) => {
@@ -17,7 +17,7 @@ const reducer = (state = initialState, action) => {
       updateObj[action.input] = action.value;
       return Object.assign({}, state, updateObj);
     case 'PUBLISH_POST':
-      return Object.assign({}, state, { data: state.data.concat(action.data), title: '', author: '', body: '' });
+      return Object.assign({}, state, { data: state.data.concat(action.data), title: '', author: '', blog: '' });
     default:
       return state;
   }
